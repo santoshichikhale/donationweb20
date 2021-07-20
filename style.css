@@ -1,0 +1,129 @@
+body
+{
+    background-image: url(images/photo-1505455184862-554165e5f6ba.jpg);
+    background-size: cover;
+}
+header
+{
+    width: 100%;
+    height: 75px;
+    background: transparent;
+    float: left;
+}
+header .menu
+{
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    padding: 0 10px;
+}
+header .menu .logo
+{
+    width: 40%;
+    float: left;
+}
+header .menu .logo a
+{
+    text-decoration: none;
+}
+header .menu .logo h1
+{
+    font-size: 19px;
+    color: white;
+}
+header .menu nav
+{
+    width: 60%;
+    float: right;
+}  
+header .menu nav ul
+{
+    list-style: none;
+}
+header .menu nav ul li
+{
+    display: inline-block;
+    margin: 8px 20px;
+    padding: 2px 10px;
+}
+header .menu nav ul li:hover a
+{
+    color: #00bcd4;
+}
+header .menu nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+section
+{
+    width: 100%;
+    text-align: center;
+    padding: 200px 0;
+}
+section h1
+{
+    color: black;
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+    
+}
+section h2
+{
+    color: black;
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+    
+}
+.donate
+{
+     margin-top: 30px;
+}
+.donate:hover 
+{
+    opacity: 0.7;
+}
+.container
+{
+    height: 65vh;
+    width: 40%;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 10px;
+    text-align: center;
+}
+.container h1{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+.container p{
+    color: white;
+    margin-top: 40px;
+    font-size: large;
+}
+.btn{
+    background: no-repeat;
+    outline: none;
+    border: 1px solod white;
+    color: white;
+    width: 50%;
+    padding: 7px 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 30px;
+}
+.btn:hover
+{
+    background: white;
+    color: black;
+}
+
